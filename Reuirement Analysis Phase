@@ -1,0 +1,9 @@
+Problem and goal: what problem this solves, for whom, and what "success" looks like.
+Stakeholders and users: who uses it, who's affected, and what each of them needs.
+Functional requirements: what the system must do, written as specific, verifiable statements (e.g., "The system shall let a user upload a CSV and receive a summary report").
+Non-functional requirements: performance, accuracy, security, usability, reliability, and scalability targets.
+Data requirements: for an AI/ML project, what data you need, where it comes from, its quality and size, and any privacy concerns.
+Constraints and assumptions: time, budget, team size, tools, hardware, and anything you're taking for granted.
+Scope: what's in, what's explicitly out, and what's a "nice to have" for later.
+Risks and feasibility: technical, data, and schedule risks, plus whether it's realistically doable.
+Acceptance criteria: how you'll know each requirement is met, such as metrics, tests, or a demo checklist.
