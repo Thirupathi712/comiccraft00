@@ -1,0 +1,11 @@
+README: a short overview, setup and installation steps, how to run the code, and a quick usage example. This is the first thing anyone opens, so it should get a reader running in minutes.
+Project report: the main written deliverable for a course. It typically includes an abstract, introduction and problem statement, literature review, methodology, implementation, results and discussion, conclusion, and references.
+Requirements and design documents: the SRS and design outputs from the earlier phases, updated to match what you actually built rather than what you first planned.
+Data documentation: where the data came from, its format and size, cleaning steps, known limitations, and licensing or privacy notes.
+Model documentation: the algorithm, hyperparameters, training setup, evaluation metrics and results, and limitations. A "model card" is a standard format for this.
+Code documentation: docstrings, inline comments for non-obvious logic, and, for larger projects, generated API docs (Sphinx or MkDocs).
+User guide: step-by-step instructions with screenshots for anyone using the application.
+Testing documentation: test cases, results, and how to reproduce them.
+Experiment log: what you tried, what worked, and what didn't, which also gives you material for the results section.
+Presentation and demo: slides and a demo script if you have to present.
+Reproducibility notes: dependency versions, random seeds, and the exact commands to reproduce your results.
