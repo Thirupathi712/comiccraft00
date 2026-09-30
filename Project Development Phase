@@ -1,0 +1,10 @@
+Environment setup: a Git repository, a virtual environment, pinned dependencies, and a sensible folder structure (data, notebooks, src, tests).
+Data pipeline: collecting, cleaning, and preprocessing data, plus feature engineering, written as reusable scripts rather than one-off notebook cells.
+Baseline model: a simple model first (logistic regression, a decision tree, or a majority-class guess) so every later improvement has something to be measured against.
+Model development: iterating on better algorithms, tuning hyperparameters, and tracking each experiment (tools like MLflow or Weights & Biases help, or even a simple spreadsheet).
+Evaluation: testing on held-out data with the metrics from your requirements, and checking errors, overfitting, and bias.
+Application layer: wrapping the model in an API, a script, or a UI (Flask, FastAPI, or Streamlit are common choices for student projects).
+Version control habits: small, frequent commits with clear messages, and branches for experiments.
+Testing: unit tests for data and utility functions, plus integration tests for the full pipeline.
+Documentation: a README with setup and usage steps, and comments on the non-obvious parts.
+Iteration: short cycles of build, test, review, and adjust, revisiting the design or requirements when results demand it.
