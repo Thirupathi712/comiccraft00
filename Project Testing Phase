@@ -1,0 +1,12 @@
+Test plan: what you'll test, how, with what data, and what counts as a pass. It should trace back to your requirements and acceptance criteria.
+Unit testing: small tests for individual functions, such as data loaders, preprocessing steps, and feature functions (pytest is the standard tool in Python).
+Integration testing: checking that the pieces work together, for example that raw data flows through the pipeline, into the model, and out through the API or UI correctly.
+Data validation: checks on schema, missing values, ranges, duplicates, and label balance, plus a check that no test data leaked into training.
+Model evaluation: metrics on a held-out test set (accuracy, precision, recall, F1, ROC-AUC for classification; MAE or RMSE for regression), compared against your baseline. Use cross-validation for small datasets.
+Error analysis: looking at where the model fails, using a confusion matrix and examples of wrong predictions, to find patterns.
+Robustness testing: how the model handles noisy, unusual, or out-of-range inputs, and edge cases like empty fields or extreme values.
+Fairness and bias checks: comparing performance across subgroups where relevant.
+Performance testing: inference speed, memory use, and how it behaves under load if it's a served application.
+System and user acceptance testing: running the whole application end to end against your acceptance criteria, ideally with a few real users trying it.
+Regression testing: rerunning tests after every change so a fix or improvement doesn't quietly break something else.
+Test documentation: a table of test cases with ID, description, input, expected result, actual result, and status (pass or fail), along with any bugs found and how they were fixed.
