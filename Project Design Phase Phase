@@ -1,0 +1,9 @@
+System architecture: the major components (data pipeline, model, API, UI) and how they connect, usually as a block diagram.
+Data design: data sources, schema, storage, preprocessing and feature engineering steps, and the train/validation/test split.
+Model design: candidate algorithms, a baseline to beat, the evaluation metrics, and how you'll tune and compare models.
+Module and interface design: the classes or functions in each component, their inputs and outputs, and any API endpoints.
+UI/UX design: wireframes or screen flows, if the project has a front end.
+Technology stack: languages, libraries, frameworks, and hardware or cloud choices, with a reason for each.
+Diagrams: the UML or flow diagrams that fit, such as use case, sequence, class, data flow, or ER diagrams.
+Error handling and security: how failures, bad input, and sensitive data are handled.
+Testing plan: how each requirement from the previous phase will be verified.
