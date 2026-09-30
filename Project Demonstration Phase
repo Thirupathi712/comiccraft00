@@ -1,0 +1,11 @@
+Audience and time limit: who's watching, what they care about, and how long you have. A 5-minute demo and a 20-minute one need very different scripts.
+Story arc: problem, your solution, live demo, results, and what's next. Start with why it matters before showing any code.
+Demo script: the exact steps you'll perform, in order, with the expected output at each step. Rehearse it until it runs without thinking.
+Live demo flow: pick two or three key scenarios that show the core value, such as a typical input, a tricky case, and the output the user sees. Don't try to show every feature.
+Backup plan: a screen recording, screenshots, or pre-run notebook in case the internet, hardware, or the model fails on the day. Live demos break more often than you'd expect.
+Environment prep: everything installed and tested on the machine you'll present from, sample inputs ready, notifications off, and a clean screen with readable font sizes.
+Results slide: your key metrics, the baseline comparison, and one or two honest limitations. Acknowledging limits reads as credibility, not weakness.
+Slides: a short deck (problem, approach, architecture diagram, results, conclusion) that supports the demo instead of replacing it.
+Q&A preparation: likely questions on your data, why you chose this model, how you evaluated it, what could go wrong, and future work. Write out short answers in advance.
+Roles: if you're in a team, decide who presents, who drives the demo, and who handles questions.
+Closing: a clear summary of what you achieved, what you learned, and next steps, plus a link to the repo or report.
